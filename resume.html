@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seldian Bascos - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .resume-header {
+            text-align: center;
+            border-bottom: 3px solid #475569;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .resume-header h1 {
+            font-size: 2.5em;
+            color: #334155;
+            margin-bottom: 10px;
+        }
+
+        .resume-header .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+            font-size: 0.95em;
+        }
+
+        .resume-header .contact-info span {
+            color: #64748b;
+        }
+
+        .resume-section {
+            margin-bottom: 30px;
+            page-break-inside: avoid;
+        }
+
+        .resume-section h2 {
+            font-size: 1.5em;
+            color: #475569;
+            border-bottom: 2px solid #cbd5e1;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .resume-section h3 {
+            font-size: 1.2em;
+            color: #334155;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+
+        .resume-section p {
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+
+        .resume-section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .resume-section ul li {
+            margin-bottom: 8px;
+            line-height: 1.7;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .skill-category {
+            background: #f8fafc;
+            padding: 12px;
+            border-left: 3px solid #475569;
+        }
+
+        .skill-category strong {
+            color: #334155;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .project-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8fafc;
+            border-left: 3px solid #64748b;
+        }
+
+        .project-item h3 {
+            color: #334155;
+            margin-top: 0;
+        }
+
+        .project-item .tech-tags {
+            margin-top: 8px;
+        }
+
+        .tech-tags span {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 4px 10px;
+            margin: 3px 3px 3px 0;
+            border-radius: 3px;
+            font-size: 0.85em;
+        }
+
+        @media print {
+            body {
+                padding: 20px;
+            }
+            
+            .resume-section {
+                page-break-inside: avoid;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+
+        .download-note {
+            text-align: center;
+            padding: 20px;
+            background: #f1f5f9;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+            color: #64748b;
+        }
+
+        .print-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #475569;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            font-size: 1em;
+            transition: background 0.3s ease;
+        }
+
+        .print-button:hover {
+            background: #334155;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container no-print">
+        <button class="print-button" onclick="window.print()">📄 Print / Save as PDF</button>
+        <a href="index.html" class="print-button" style="text-decoration: none; display: inline-block;">← Back to Portfolio</a>
+    </div>
+    <div class="download-note no-print">
+        <p><strong>Resume of Seldian Bascos</strong></p>
+        <p>Click "Print / Save as PDF" above or press Ctrl+P (Cmd+P on Mac) to save as PDF</p>
+    </div>
+
+    <div class="resume-header">
+        <h1>SELDIAN BASCOS</h1>
+        <p style="font-size: 1.1em; color: #64748b; margin-top: 5px;">Bachelor of Science in Information Technology (BSIT) – 3rd Year</p>
+        <p style="color: #94a3b8; margin-top: 5px;">Filamer Christian University</p>
+        <div class="contact-info">
+            <span>📧 sbascoss@gmail.com</span>
+            <span>📞 0910 977 8647</span>
+            <span>💼 linkedin.com/in/seldian-bascos-86b498201</span>
+            <span>📍 Philippines</span>
+        </div>
+    </div>
+
+    <div class="resume-section">
+        <h2>Career Objective</h2>
+        <p>A motivated and dedicated BSIT student seeking opportunities to apply technical knowledge and practical skills in software development, system design, and information technology support. Eager to learn, grow, and contribute to real-world IT solutions.</p>
+    </div>
+
+    <div class="resume-section">
+        <h2>Education</h2>
+        <h3>Bachelor of Science in Information Technology (BSIT)</h3>
+        <p><strong>Filamer Christian University</strong></p>
+        <p>3rd Year Student | Currently pursuing degree in Information Technology</p>
+        <p>Roxas City, Capiz, Philippines</p>
+    </div>
+
+    <div class="resume-section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Programming & Web Development</strong>
+                <p>HTML, CSS, JavaScript (basic), PHP (basic)</p>
+            </div>
+            <div class="skill-category">
+                <strong>Database Management</strong>
+                <p>MySQL, Database Design, SQL Queries</p>
+            </div>
+            <div class="skill-category">
+                <strong>Tools & Technologies</strong>
+                <p>Visual Studio Code, GitHub, XAMPP, Microsoft Office</p>
+            </div>
+            <div class="skill-category">
+                <strong>Operating Systems</strong>
+                <p>Windows OS, Basic Networking Concepts</p>
+            </div>
+        </div>
+        <div style="margin-top: 15px;">
+            <strong>Soft Skills:</strong> Problem-solving, Team collaboration, Time management, Adaptability, Willingness to learn new technologies
+        </div>
+    </div>
+
+    <div class="resume-section">
+        <h2>Technical Projects & Systems</h2>
+        
+        <div class="project-item">
+            <h3>Community Garden Management System</h3>
+            <p><strong>Role:</strong> Full Stack Developer</p>
+            <p><strong>Description:</strong> A comprehensive web-based management system for community gardens including authentication, member management, feedback system, and administrative dashboard.</p>
+            <p><strong>Key Contributions:</strong></p>
+            <ul>
+                <li>Developed secure authentication and registration system with form validation</li>
+                <li>Created member management system with CRUD operations</li>
+                <li>Implemented feedback management system with admin dashboard</li>
+                <li>Designed and implemented MySQL database schema</li>
+                <li>Developed responsive user interface with modern design</li>
+            </ul>
+            <div class="tech-tags">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <h3>Student Information System</h3>
+            <p><strong>Role:</strong> Backend Developer & Database Designer</p>
+            <p><strong>Description:</strong> A web-based system designed to manage student records including personal information, enrollment, and grades.</p>
+            <p><strong>Key Contributions:</strong></p>
+            <ul>
+                <li>Designed and implemented database schema with proper normalization</li>
+                <li>Developed PHP backend logic for CRUD operations</li>
+                <li>Created secure authentication and session management</li>
+                <li>Integrated frontend with backend API endpoints</li>
+            </ul>
+            <div class="tech-tags">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <h3>Inventory Management System</h3>
+            <p><strong>Role:</strong> Full System Developer (Solo Project)</p>
+            <p><strong>Description:</strong> A complete system that allows users to add, update, delete, and track product records while monitoring stock levels in real-time.</p>
+            <p><strong>Key Contributions:</strong></p>
+            <ul>
+                <li>Complete system architecture and design</li>
+                <li>Database design with inventory tracking features</li>
+                <li>User interface development</li>
+                <li>Stock level monitoring and alerts</li>
+                <li>Report generation functionality</li>
+            </ul>
+            <div class="tech-tags">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume-section">
+        <h2>Certificates & Awards</h2>
+        <ul>
+            <li><strong>Wadhwani Foundation - Ignite Bootcamp</strong> | Certificate of Participation - Venture Idea Development Program (December 2025) | 10 hours of training in ideation, prototyping, business modeling, and financial planning</li>
+            <li><strong>NSTP - Blue Falcons Service Award</strong> | Certificate of Recognition from Filamer Christian University (June 2025) | Recognition for meritorious achievement and exemplary performance</li>
+            <li><strong>CCS Acquaintance Party - Boy-Band Contest</strong> | 4th Place Winner (September 2023) | Filamer Christian University, College of Computer Studies</li>
+        </ul>
+    </div>
+
+    <div class="resume-section">
+        <h2>Academic Achievements</h2>
+        <ul>
+            <li>Completed multiple system-based academic projects demonstrating technical proficiency</li>
+            <li>Active participation in IT seminars, webinars, and training programs</li>
+            <li>Demonstrated consistent improvement in programming and database management skills</li>
+            <li>Participation in system analysis and design activities</li>
+            <li>Database normalization exercises and SQL query optimization</li>
+        </ul>
+    </div>
+
+    <div class="resume-section">
+        <h2>Professional Profile</h2>
+        <p><strong>LinkedIn:</strong> linkedin.com/in/seldian-bascos-86b498201</p>
+        <p>Fully completed professional LinkedIn profile showcasing skills, achievements, and project portfolios.</p>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 2px solid #e2e8f0; color: #94a3b8; font-size: 0.9em;">
+        <p>This resume was generated from my online portfolio</p>
+        <p>Last updated: 2025</p>
+    </div>
+</body>
+</html>
+

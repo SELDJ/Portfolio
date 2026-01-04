@@ -1,0 +1,35 @@
+IMAGE FILE NAMING GUIDE
+========================
+
+Please save your images in this 'images' folder with the following exact names:
+
+1. PROFILE PICTURE:
+   - File name: profile-photo.jpg
+   - Description: Your professional profile photo (the first image you uploaded)
+
+2. CERTIFICATES (3 images):
+   - File name: certificate-wadhwani.jpg
+   - Description: Wadhwani Foundation Certificate of Participation
+   
+   - File name: certificate-nstp-service.jpg
+   - Description: NSTP - Blue Falcons Service Award Certificate
+   
+   - File name: certificate-boyband-contest.jpg
+   - Description: CCS Acquaintance Party Boy-Band Contest Certificate
+
+3. TECHNICAL SYSTEMS (3 images):
+   - File name: system-login.jpg
+   - Description: Community Garden Login System screenshot
+   
+   - File name: system-feedback.jpg
+   - Description: Community Garden Feedback List screenshot
+   
+   - File name: system-members.jpg
+   - Description: Community Garden Members Management screenshot
+
+IMPORTANT NOTES:
+- All images should be in JPG/JPEG format
+- Use high-resolution images for best quality
+- Images will automatically resize to fit the portfolio layout
+- The portfolio is fully responsive and will work on mobile devices
+
